@@ -43,5 +43,3 @@ The files that the app downloads can be dowloaded from here: https://github.com/
 @parrotgeek1 for Pluvia and WiFI fix
 
 @Corellium for Project Sandcastle
-
-@dora2ios for cherryflowerJB
