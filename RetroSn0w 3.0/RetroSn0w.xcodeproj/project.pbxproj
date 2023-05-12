@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152EB69A2693EBF100D10012 /* iDroidInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 152EB6982693EBF100D10012 /* iDroidInstaller.m */; };
+		1536AEBA26991CE7002FA1A3 /* Extra4tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1536AEB926991CE7002FA1A3 /* Extra4tools.m */; };
+		1536AEBD2699336A002FA1A3 /* wififix.m in Sources */ = {isa = PBXBuildFile; fileRef = 1536AEBC2699336A002FA1A3 /* wififix.m */; };
+		1537F6382692D1B300948517 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 1537F6372692D1B300948517 /* Images */; };
+		1537F63F2692EA8E00948517 /* 4Restore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1537F63E2692EA8E00948517 /* 4Restore.m */; };
+		1546670F234186FB00990F6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1546670D234186FB00990F6F /* Main.storyboard */; };
+		15E2C3F526953ECD007B3386 /* checkm8-futurerestore.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E2C3F426953ECD007B3386 /* checkm8-futurerestore.m */; };
+		BADEA697233EE2EE0005C5DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEA696233EE2EE0005C5DD /* AppDelegate.m */; };
+		BADEA69A233EE2EE0005C5DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEA699233EE2EE0005C5DD /* ViewController.m */; };
+		BADEA69C233EE2F00005C5DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADEA69B233EE2F00005C5DD /* Assets.xcassets */; };
+		BADEA6A2233EE2F00005C5DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEA6A1233EE2F00005C5DD /* main.m */; };
+		BADEA6AD233EE2F00005C5DD /* RetroSn0wTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEA6AC233EE2F00005C5DD /* RetroSn0wTests.m */; };
+		BADEA6B8233EE2F00005C5DD /* RetroSn0wUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEA6B7233EE2F00005C5DD /* RetroSn0wUITests.m */; };
+		D337B2BA279D5D7E00097EE5 /* set.png in Resources */ = {isa = PBXBuildFile; fileRef = D337B2B4279D5D7E00097EE5 /* set.png */; };
+		D337B2BB279D5D7E00097EE5 /* generator.png in Resources */ = {isa = PBXBuildFile; fileRef = D337B2B5279D5D7E00097EE5 /* generator.png */; };
+		D337B2BC279D5D7E00097EE5 /* tss.png in Resources */ = {isa = PBXBuildFile; fileRef = D337B2B6279D5D7E00097EE5 /* tss.png */; };
+		D337B2BD279D5D7E00097EE5 /* files.png in Resources */ = {isa = PBXBuildFile; fileRef = D337B2B7279D5D7E00097EE5 /* files.png */; };
+		D337B2BE279D5D7E00097EE5 /* AppLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D337B2B8279D5D7E00097EE5 /* AppLogo.png */; };
+		D337B2BF279D5D7E00097EE5 /* ipsw.png in Resources */ = {isa = PBXBuildFile; fileRef = D337B2B9279D5D7E00097EE5 /* ipsw.png */; };
+		D3667B692A0DF8BB005F9D60 /* A7.m in Sources */ = {isa = PBXBuildFile; fileRef = D3667B672A0DF8BB005F9D60 /* A7.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BADEA6A9233EE2F00005C5DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BADEA68A233EE2EE0005C5DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BADEA691233EE2EE0005C5DD;
+			remoteInfo = checkm8;
+		};
+		BADEA6B4233EE2F00005C5DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BADEA68A233EE2EE0005C5DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BADEA691233EE2EE0005C5DD;
+			remoteInfo = checkm8;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		152EB6972693EBF100D10012 /* iDroidInstaller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iDroidInstaller.h; sourceTree = "<group>"; };
+		152EB6982693EBF100D10012 /* iDroidInstaller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDroidInstaller.m; sourceTree = "<group>"; };
+		1536AEB826991CE7002FA1A3 /* Extra4tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Extra4tools.h; sourceTree = "<group>"; };
+		1536AEB926991CE7002FA1A3 /* Extra4tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Extra4tools.m; sourceTree = "<group>"; };
+		1536AEBB2699336A002FA1A3 /* wififix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wififix.h; sourceTree = "<group>"; };
+		1536AEBC2699336A002FA1A3 /* wififix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wififix.m; sourceTree = "<group>"; };
+		1537F6372692D1B300948517 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		1537F63D2692EA8E00948517 /* 4Restore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 4Restore.h; sourceTree = "<group>"; };
+		1537F63E2692EA8E00948517 /* 4Restore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = 4Restore.m; sourceTree = "<group>"; };
+		1546670E234186FB00990F6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15E2C3F326953ECD007B3386 /* checkm8-futurerestore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "checkm8-futurerestore.h"; sourceTree = "<group>"; };
+		15E2C3F426953ECD007B3386 /* checkm8-futurerestore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "checkm8-futurerestore.m"; sourceTree = "<group>"; };
+		BADEA692233EE2EE0005C5DD /* RetroSn0w.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroSn0w.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADEA695233EE2EE0005C5DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BADEA696233EE2EE0005C5DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BADEA698233EE2EE0005C5DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BADEA699233EE2EE0005C5DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BADEA69B233EE2F00005C5DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BADEA6A0233EE2F00005C5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BADEA6A1233EE2F00005C5DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BADEA6A3233EE2F00005C5DD /* RetroSn0w.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RetroSn0w.entitlements; sourceTree = "<group>"; };
+		BADEA6A8233EE2F00005C5DD /* RetroSn0wTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroSn0wTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADEA6AC233EE2F00005C5DD /* RetroSn0wTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetroSn0wTests.m; sourceTree = "<group>"; };
+		BADEA6AE233EE2F00005C5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BADEA6B3233EE2F00005C5DD /* RetroSn0wUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroSn0wUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADEA6B7233EE2F00005C5DD /* RetroSn0wUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetroSn0wUITests.m; sourceTree = "<group>"; };
+		BADEA6B9233EE2F00005C5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D337B2B4279D5D7E00097EE5 /* set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = set.png; path = RetroSn0w/Images/set.png; sourceTree = SOURCE_ROOT; };
+		D337B2B5279D5D7E00097EE5 /* generator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = generator.png; path = RetroSn0w/Images/generator.png; sourceTree = SOURCE_ROOT; };
+		D337B2B6279D5D7E00097EE5 /* tss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tss.png; path = RetroSn0w/Images/tss.png; sourceTree = SOURCE_ROOT; };
+		D337B2B7279D5D7E00097EE5 /* files.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = files.png; path = RetroSn0w/Images/files.png; sourceTree = SOURCE_ROOT; };
+		D337B2B8279D5D7E00097EE5 /* AppLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppLogo.png; path = RetroSn0w/Images/AppLogo.png; sourceTree = SOURCE_ROOT; };
+		D337B2B9279D5D7E00097EE5 /* ipsw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ipsw.png; path = RetroSn0w/Images/ipsw.png; sourceTree = SOURCE_ROOT; };
+		D3667B672A0DF8BB005F9D60 /* A7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A7.m; sourceTree = "<group>"; };
+		D3667B682A0DF8BB005F9D60 /* A7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A7.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BADEA68F233EE2EE0005C5DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADEA6A5233EE2F00005C5DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADEA6B0233EE2F00005C5DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BADEA689233EE2EE0005C5DD = {
+			isa = PBXGroup;
+			children = (
+				BADEA694233EE2EE0005C5DD /* RetroSn0w */,
+				BADEA6AB233EE2F00005C5DD /* RetroSn0wTests */,
+				BADEA6B6233EE2F00005C5DD /* RetroSn0wUITests */,
+				BADEA693233EE2EE0005C5DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BADEA693233EE2EE0005C5DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BADEA692233EE2EE0005C5DD /* RetroSn0w.app */,
+				BADEA6A8233EE2F00005C5DD /* RetroSn0wTests.xctest */,
+				BADEA6B3233EE2F00005C5DD /* RetroSn0wUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BADEA694233EE2EE0005C5DD /* RetroSn0w */ = {
+			isa = PBXGroup;
+			children = (
+				D337B2B3279D5B7B00097EE5 /* Controlers */,
+				1537F6372692D1B300948517 /* Images */,
+				BADEA695233EE2EE0005C5DD /* AppDelegate.h */,
+				BADEA696233EE2EE0005C5DD /* AppDelegate.m */,
+				BADEA69B233EE2F00005C5DD /* Assets.xcassets */,
+				BADEA6A0233EE2F00005C5DD /* Info.plist */,
+				BADEA6A1233EE2F00005C5DD /* main.m */,
+				1546670D234186FB00990F6F /* Main.storyboard */,
+				BADEA6A3233EE2F00005C5DD /* RetroSn0w.entitlements */,
+			);
+			path = RetroSn0w;
+			sourceTree = "<group>";
+		};
+		BADEA6AB233EE2F00005C5DD /* RetroSn0wTests */ = {
+			isa = PBXGroup;
+			children = (
+				BADEA6AC233EE2F00005C5DD /* RetroSn0wTests.m */,
+				BADEA6AE233EE2F00005C5DD /* Info.plist */,
+			);
+			path = RetroSn0wTests;
+			sourceTree = "<group>";
+		};
+		BADEA6B6233EE2F00005C5DD /* RetroSn0wUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BADEA6B7233EE2F00005C5DD /* RetroSn0wUITests.m */,
+				BADEA6B9233EE2F00005C5DD /* Info.plist */,
+			);
+			path = RetroSn0wUITests;
+			sourceTree = "<group>";
+		};
+		D337B2B3279D5B7B00097EE5 /* Controlers */ = {
+			isa = PBXGroup;
+			children = (
+				BADEA698233EE2EE0005C5DD /* ViewController.h */,
+				BADEA699233EE2EE0005C5DD /* ViewController.m */,
+				1537F63D2692EA8E00948517 /* 4Restore.h */,
+				1537F63E2692EA8E00948517 /* 4Restore.m */,
+				15E2C3F326953ECD007B3386 /* checkm8-futurerestore.h */,
+				152EB6972693EBF100D10012 /* iDroidInstaller.h */,
+				D3667B682A0DF8BB005F9D60 /* A7.h */,
+				D3667B672A0DF8BB005F9D60 /* A7.m */,
+				152EB6982693EBF100D10012 /* iDroidInstaller.m */,
+				1536AEB826991CE7002FA1A3 /* Extra4tools.h */,
+				1536AEB926991CE7002FA1A3 /* Extra4tools.m */,
+				15E2C3F426953ECD007B3386 /* checkm8-futurerestore.m */,
+				1536AEBB2699336A002FA1A3 /* wififix.h */,
+				1536AEBC2699336A002FA1A3 /* wififix.m */,
+				D337B2B8279D5D7E00097EE5 /* AppLogo.png */,
+				D337B2B7279D5D7E00097EE5 /* files.png */,
+				D337B2B5279D5D7E00097EE5 /* generator.png */,
+				D337B2B9279D5D7E00097EE5 /* ipsw.png */,
+				D337B2B4279D5D7E00097EE5 /* set.png */,
+				D337B2B6279D5D7E00097EE5 /* tss.png */,
+			);
+			path = Controlers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BADEA691233EE2EE0005C5DD /* RetroSn0w */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BADEA6BC233EE2F00005C5DD /* Build configuration list for PBXNativeTarget "RetroSn0w" */;
+			buildPhases = (
+				BADEA68E233EE2EE0005C5DD /* Sources */,
+				BADEA68F233EE2EE0005C5DD /* Frameworks */,
+				BADEA690233EE2EE0005C5DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetroSn0w;
+			productName = checkm8;
+			productReference = BADEA692233EE2EE0005C5DD /* RetroSn0w.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BADEA6A7233EE2F00005C5DD /* RetroSn0wTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BADEA6BF233EE2F00005C5DD /* Build configuration list for PBXNativeTarget "RetroSn0wTests" */;
+			buildPhases = (
+				BADEA6A4233EE2F00005C5DD /* Sources */,
+				BADEA6A5233EE2F00005C5DD /* Frameworks */,
+				BADEA6A6233EE2F00005C5DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BADEA6AA233EE2F00005C5DD /* PBXTargetDependency */,
+			);
+			name = RetroSn0wTests;
+			productName = checkm8Tests;
+			productReference = BADEA6A8233EE2F00005C5DD /* RetroSn0wTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BADEA6B2233EE2F00005C5DD /* RetroSn0wUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BADEA6C2233EE2F00005C5DD /* Build configuration list for PBXNativeTarget "RetroSn0wUITests" */;
+			buildPhases = (
+				BADEA6AF233EE2F00005C5DD /* Sources */,
+				BADEA6B0233EE2F00005C5DD /* Frameworks */,
+				BADEA6B1233EE2F00005C5DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BADEA6B5233EE2F00005C5DD /* PBXTargetDependency */,
+			);
+			name = RetroSn0wUITests;
+			productName = checkm8UITests;
+			productReference = BADEA6B3233EE2F00005C5DD /* RetroSn0wUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BADEA68A233EE2EE0005C5DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = 80036nd;
+				TargetAttributes = {
+					BADEA691233EE2EE0005C5DD = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					BADEA6A7233EE2F00005C5DD = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = BADEA691233EE2EE0005C5DD;
+					};
+					BADEA6B2233EE2F00005C5DD = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = BADEA691233EE2EE0005C5DD;
+					};
+				};
+			};
+			buildConfigurationList = BADEA68D233EE2EE0005C5DD /* Build configuration list for PBXProject "RetroSn0w" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BADEA689233EE2EE0005C5DD;
+			productRefGroup = BADEA693233EE2EE0005C5DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BADEA691233EE2EE0005C5DD /* RetroSn0w */,
+				BADEA6A7233EE2F00005C5DD /* RetroSn0wTests */,
+				BADEA6B2233EE2F00005C5DD /* RetroSn0wUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BADEA690233EE2EE0005C5DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D337B2BE279D5D7E00097EE5 /* AppLogo.png in Resources */,
+				D337B2BC279D5D7E00097EE5 /* tss.png in Resources */,
+				D337B2BF279D5D7E00097EE5 /* ipsw.png in Resources */,
+				1546670F234186FB00990F6F /* Main.storyboard in Resources */,
+				1537F6382692D1B300948517 /* Images in Resources */,
+				D337B2BD279D5D7E00097EE5 /* files.png in Resources */,
+				D337B2BA279D5D7E00097EE5 /* set.png in Resources */,
+				BADEA69C233EE2F00005C5DD /* Assets.xcassets in Resources */,
+				D337B2BB279D5D7E00097EE5 /* generator.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADEA6A6233EE2F00005C5DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADEA6B1233EE2F00005C5DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BADEA68E233EE2EE0005C5DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADEA69A233EE2EE0005C5DD /* ViewController.m in Sources */,
+				15E2C3F526953ECD007B3386 /* checkm8-futurerestore.m in Sources */,
+				1536AEBD2699336A002FA1A3 /* wififix.m in Sources */,
+				1537F63F2692EA8E00948517 /* 4Restore.m in Sources */,
+				BADEA6A2233EE2F00005C5DD /* main.m in Sources */,
+				BADEA697233EE2EE0005C5DD /* AppDelegate.m in Sources */,
+				D3667B692A0DF8BB005F9D60 /* A7.m in Sources */,
+				152EB69A2693EBF100D10012 /* iDroidInstaller.m in Sources */,
+				1536AEBA26991CE7002FA1A3 /* Extra4tools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADEA6A4233EE2F00005C5DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADEA6AD233EE2F00005C5DD /* RetroSn0wTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADEA6AF233EE2F00005C5DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADEA6B8233EE2F00005C5DD /* RetroSn0wUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BADEA6AA233EE2F00005C5DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BADEA691233EE2EE0005C5DD /* RetroSn0w */;
+			targetProxy = BADEA6A9233EE2F00005C5DD /* PBXContainerItemProxy */;
+		};
+		BADEA6B5233EE2F00005C5DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BADEA691233EE2EE0005C5DD /* RetroSn0w */;
+			targetProxy = BADEA6B4233EE2F00005C5DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1546670D234186FB00990F6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1546670E234186FB00990F6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BADEA6BA233EE2F00005C5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BADEA6BB233EE2F00005C5DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BADEA6BD233EE2F00005C5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RetroSn0w/RetroSn0w.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9S8FJ2657D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = RetroSn0w/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = 80036nd;
+				PRODUCT_NAME = RetroSn0w;
+			};
+			name = Debug;
+		};
+		BADEA6BE233EE2F00005C5DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RetroSn0w/RetroSn0w.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9S8FJ2657D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = RetroSn0w/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = 80036nd;
+				PRODUCT_NAME = RetroSn0w;
+			};
+			name = Release;
+		};
+		BADEA6C0233EE2F00005C5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9SYF3R8B6Q;
+				INFOPLIST_FILE = checkm8Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.machport.checkm8Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetroSn0w.app/Contents/MacOS/RetroSn0w";
+			};
+			name = Debug;
+		};
+		BADEA6C1233EE2F00005C5DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9SYF3R8B6Q;
+				INFOPLIST_FILE = checkm8Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.machport.checkm8Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetroSn0w.app/Contents/MacOS/RetroSn0w";
+			};
+			name = Release;
+		};
+		BADEA6C3233EE2F00005C5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9SYF3R8B6Q;
+				INFOPLIST_FILE = checkm8UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.machport.checkm8UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = checkm8;
+			};
+			name = Debug;
+		};
+		BADEA6C4233EE2F00005C5DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9SYF3R8B6Q;
+				INFOPLIST_FILE = checkm8UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.machport.checkm8UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = checkm8;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BADEA68D233EE2EE0005C5DD /* Build configuration list for PBXProject "RetroSn0w" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADEA6BA233EE2F00005C5DD /* Debug */,
+				BADEA6BB233EE2F00005C5DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BADEA6BC233EE2F00005C5DD /* Build configuration list for PBXNativeTarget "RetroSn0w" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADEA6BD233EE2F00005C5DD /* Debug */,
+				BADEA6BE233EE2F00005C5DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BADEA6BF233EE2F00005C5DD /* Build configuration list for PBXNativeTarget "RetroSn0wTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADEA6C0233EE2F00005C5DD /* Debug */,
+				BADEA6C1233EE2F00005C5DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BADEA6C2233EE2F00005C5DD /* Build configuration list for PBXNativeTarget "RetroSn0wUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADEA6C3233EE2F00005C5DD /* Debug */,
+				BADEA6C4233EE2F00005C5DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BADEA68A233EE2EE0005C5DD /* Project object */;
+}
